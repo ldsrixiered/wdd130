@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Shadows+Into+Light&display=swap');
+
+/* --heading-font: "Shadows Into Light";
+--paragraph-font: Inter, Helvetica, sans-serif; */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -41,6 +46,7 @@ nav a:hover{
     background-color: #cf971b;
     color: #343939;
     text-decoration: none;
+    font-size: 18px;
 }
 
 .book:hover, .join:hover{
@@ -49,6 +55,7 @@ nav a:hover{
 }
 .msg{
     background-color: #8998a1;
+    line-height: 1.5em;
 }
 footer, footer a{
     background-color: #343939;
@@ -71,6 +78,23 @@ footer p{
 #hero-img{
     width: 100%;
 }
+
+body{
+    font-size: 22px;
+}
+
+.home-title{
+    font-family: "Shadows Into Light";
+    font-size: 2em;
+}
+
+.msg p{
+    font-family: "Inter";
+    font-size: 2em;
+
+}
+
+
 
 
 
