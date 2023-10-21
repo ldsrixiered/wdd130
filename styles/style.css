@@ -10,6 +10,7 @@
 
 nav a{
     text-align: center;
+    padding: 35px;
 }
 #herro-msg h1, #herro-msg h4{
     text-align: center;
@@ -36,6 +37,8 @@ header{
 nav a{
     color: #8998a1;
     text-decoration: none;
+    
+
 }
 
 nav a:hover{
@@ -47,6 +50,9 @@ nav a:hover{
     color: #343939;
     text-decoration: none;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -56,6 +62,7 @@ nav a:hover{
 .msg{
     background-color: #8998a1;
     line-height: 1.5em;
+    padding: 35px;
 }
 footer, footer a{
     background-color: #343939;
@@ -75,26 +82,52 @@ footer p{
 .icon, .logo{
     width: 80px;
 }
+.icon{
+    padding-top: 10px;
+}
 #hero-img{
     width: 100%;
 }
 
 body{
     font-size: 22px;
+    font-family: "Inter";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .home-title{
     font-family: "Shadows Into Light";
     font-size: 2em;
+    margin-top: 10px;
 }
 
 .msg p{
     font-family: "Inter";
     font-size: 2em;
-
+    padding-bottom: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
+footer .social img{
+    padding: 15px;
 
+}
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #cf971b;
+}
 
-
+main section img{
+    box-sizing: border-box;
+}
 
