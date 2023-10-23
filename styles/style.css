@@ -15,6 +15,10 @@ nav a{
 #herro-msg h1, #herro-msg h4{
     text-align: center;
 }
+#hero-img h1{
+    color: #cf971b;
+}
+
 .button-box{
     text-align: center;
 }
