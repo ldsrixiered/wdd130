@@ -85,6 +85,7 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: #FFD60A;
 }
 .secondary {
   background-color: var(--secondary-color);
@@ -94,11 +95,13 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+  color: #FFD60A;
 }
 
 p.colored {
   background-color: var(--paragraph-background-color);
-  color: var(--paragraph-color-on-color);
+  color: #FFD60A;
+
 }
 
 nav {
