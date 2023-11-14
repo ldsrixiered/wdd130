@@ -69,6 +69,7 @@ nav a{
 
 body{
     background-color: #e7e9e6;
+    margin-bottom: 50px;
 }
 *{
     box-sizing: border-box;
@@ -81,6 +82,7 @@ body{
     width: 300px;
     height: 400px;
     margin: 10px;
+    border-radius: 15px;
 }
 .car1{
     background-image: url(../image/River.jpg);
@@ -96,6 +98,7 @@ body{
     height: 150px;
     margin-bottom: 15px;
     background-size: cover;
+    border-radius: 15px 15px 0 0;
 }
 
 .container{
@@ -126,6 +129,7 @@ footer, footer a{
     background-color: #343939;
     color: #e7e9e6;
     text-decoration: none;
+    margin-top: 50px;
 }
 footer a:hover{
     background-color: #cf971b;
