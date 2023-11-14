@@ -100,6 +100,17 @@ body{
     background-size: cover;
     border-radius: 15px 15px 0 0;
 }
+.p{
+    font-size: 20px;
+    text-align: center;
+    z-index: -5;
+    margin: 10px;
+    font-family:  Inter, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: "Shadows Into Light";
+}
 
 .container{
     display: flex;
