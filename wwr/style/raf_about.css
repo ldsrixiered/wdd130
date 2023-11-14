@@ -48,6 +48,20 @@
         margin-top: 25px;
     }
 }
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Shadows Into Light";
+    font-size: 80px;
+
+}
+p{
+    text-align: center;
+    margin: 100px 150px;
+    font-family:  Inter, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
 nav a{
     text-align: center;
     padding: 35px;
@@ -55,6 +69,27 @@ nav a{
 
 body{
     background-color: #e7e9e6;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: #343939;
+    color: #e7e9e6;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.card-image{
+    background-color: #cf971b;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
 }
 
 header{
@@ -123,20 +158,3 @@ footer .social img{
     padding: 15px;
 
 }
-.river-card, .camping-card, .rapids-card{
-    margin: 200px 0;
-}
-.card-img{
-    border: 10px solid #cf971b;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card-img:hover{
-    opacity: .6;
-    transform: scale(1.1);
-}
-
-main section img{
-    box-sizing: border-box;
-}
-
