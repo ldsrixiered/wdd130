@@ -83,13 +83,13 @@ body{
     margin: 10px;
 }
 .car1{
-    background-image: url(/wwr/image/River.jpg);
+    background-image: url(../image/River.jpg);
 }
 .car2{
-    background-image: url(/wwr/image/camp.png);
+    background-image: url(../image/camp.png);
 }
 .car3{
-    background-image: url(/wwr/image/Rapid.jpg);
+    background-image: url(../image/Rapid.jpg);
 }
 .card-image {
     background-color: #cf971b;
