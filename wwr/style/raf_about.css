@@ -74,7 +74,7 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+    }
 .card{
     background-color: #343939;
     color: #e7e9e6;
@@ -82,8 +82,20 @@ body{
     height: 400px;
     margin: 10px;
 }
-.card-image{
+.car1{
+    background-image: url(/wwr/image/River.jpg);
+}
+.car2{
+    background-image: url(/wwr/image/camp.png);
+}
+.car3{
+    background-image: url(/wwr/image/Rapid.jpg);
+}
+.card-image {
     background-color: #cf971b;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
 }
 
 .container{
@@ -147,14 +159,14 @@ body{
     align-self: center;
 }
 footer{
-    padding: 25px 50px;
-    margin-top: 200px;
+    padding: 25px 25px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 footer .social img{
-    padding: 15px;
+    padding: 10px;
 
 }
