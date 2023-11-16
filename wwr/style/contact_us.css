@@ -73,56 +73,9 @@ body{
     padding: 0;
     margin: 0;
     }
-.card{
-    background-color: #343939;
-    color: #e7e9e6;
-    width: 300px;
-    height: 400px;
-    margin: 50px;
-    border-radius: 15px;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-.card:hover{
-    opacity: .9;
-    transform: scale(1.4);
-}
-span{
-    color: #cf971b;
-}
-.car1{
-    background-image: url(../image/River.jpg);
-}
-.car2{
-    background-image: url(../image/camp.png);
-}
-.car3{
-    background-image: url(../image/Rapid.jpg);
-}
-.card-image {
-    background-color: #cf971b;
-    height: 150px;
-    margin-bottom: 15px;
-    background-size: cover;
-    border-radius: 15px 15px 0 0;
-}
-.p{
-    font-size: 20px;
-    text-align: center;
-    z-index: -5;
-    margin: 10px;
-    font-family:  Inter, Helvetica, sans-serif;
-}
-h2{
-    text-align: center;
-    font-family: "Shadows Into Light";
-}
 
-.container{
-    display: flex;
-    justify-content: center;
 
-}
+
 
 header{
     background-color: #343939;
@@ -190,4 +143,100 @@ footer{
 footer .social img{
     padding: 10px;
 
+}
+.input {
+    font-family: "Shadows Into Light";
+    font-size: 25px;
+    margin: 10px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: .8em;
+    background-color: #cf971b;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  
+  .input:focus {
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff;
+  }
+  #msg {
+    font-family: "Shadows Into Light";
+    color: #343939;
+    font-size: 25px;
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #cf971b;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+  }
+  #msg:focus {
+
+    background-color: white;
+    transform: scale(1.05);
+    box-shadow: 13px 13px 100px #969696,
+               -13px -13px 100px #ffffff 
+  }
+  .content{
+    text-align: center;
+    margin-top: 10px;
+  }
+  button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 20px;
+    font-family: "Shadows Into Light";
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #cf971b,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #343939 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+   #feedback {
+    background-color: #cf971b;
+    color: #343939;
+    font-family: "Shadows Into Light";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
 }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About| Dry Oar</title>
+  <link rel="website icon" href="../img/oars.png">
+  <link rel="stylesheet" href="../wwr/style/contact_us.css">
+  
+</head>
+<body>
+
+  <header>
+    <a Id= 'logo_link'href="/index.html">
+      <img class="logo" src="../wwr/image/Raffting.jpg" alt="Dry Oar Logo">
+    </a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../wwr/raf_about.html">About</a>
+      <a href="../wwr/site-plan-rafting.html">Site plan</a>
+      <a href="contact.html">Contoct Us</a>
+    </nav>  
+  </header>
+  <main>
+    <div id="feedback"></div>
+    <div class="content">
+        <h2>Contact Us</h2>
+        <br>
+    
+        <form id="contactForm" action="/my-handling-form-page" method="post">
+            <ul>
+                <li>
+                    <input type="text" autocomplete="off" name="user_name" class="input" placeholder="Name">
+                </li>
+                <li>
+                    <input type="text" autocomplete="off" name="user_email" class="input" placeholder="Email">
+                </li>
+                <li>
+                    <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+                </li>
+            </ul>
+        </form>
+    </div>
+    <button id="submitButton">Send</button>
+  </main>
+  
+  
+  <footer>
+    <p>Dry Oar &copy; 2023 - Rixie Red Castro</p>
+    <p><a href="../wwr/site-plan-rafting.html">Site Plan</a></p>
+    <p><a href="contact.html">Contatct Us</a></p>
+    <div class="social">
+      <a href="https://www.facebook.com/rixiered.castro/">
+        <img src="../img/facebook.png" alt="fb icon">
+      </a>
+      <a href="https://twitter.com/ldsrixiered">
+        <img src="../img/twitter.png" alt="tweeter icon">
+      </a>
+      <a href="https://www.instagram.com/rixiered/">
+        <img src="../img/instagram.png" alt="instagram icon">
+      </a>
+
+    </div>
+  </footer>
+  <script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.getElementById('contactForm');
+
+    document.getElementById('submitButton').addEventListener('click', function(e) {
+        e.preventDefault();
+        feedbackElement.innerHTML = `Hello ${formElement.user_name.value}! Thank you for your message. We will get back to you as soon as possible!`;
+        feedbackElement.style.display = "block";
+        document.body.classList.add('moveDown');
+    });
+</script>
+
+</body>
+</html>
