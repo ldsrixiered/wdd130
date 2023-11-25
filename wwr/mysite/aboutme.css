@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Shadows+Into+Light&display=swap');
+
+/* --heading-font: "Shadows Into Light";
+--paragraph-font: Inter, Helvetica, sans-serif; */
+
+@media screen and (max-with: 900px) {
+   
+
+    nav, footer{
+        flex-direction: column;
+    }
+
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+    #hero{
+        margin-top: o;
+    }
+    #herro-msg{
+        margin-top: 0;
+    }
+    #herro-msg h4{
+        display: none;
+    }
+    #herro-msg h1{
+        color: #6f7364;
+    }
+    .home-title{
+        font-size: 25px;
+    }
+    .river-card, .camping-card, .rapids-card{
+        margin: 50px auto;
+        width: 60%;
+    }
+    .mountains .msg{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    #background{
+        display: none;
+    }
+    footer{
+        margin-top: 25px;
+    }
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Shadows Into Light";
+    font-size: 80px;
+
+}
+p{
+    text-align: center;
+    margin: 80px 150px;
+    font-family:  Inter, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+
+body{
+    background-color: white;
+    margin-bottom: 50px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+
+
+span{
+    color: #cf971b;
+}
+
+
+.p{
+    font-size: 20px;
+    text-align: center;
+    z-index: -5;
+    margin: 10px;
+    font-family:  Inter, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+header{
+    background-color: #343939;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+
+footer, footer a{
+    background-color: #343939;
+    color: #e7e9e6;
+    text-decoration: none;
+    margin-top: 50px;
+}
+footer a:hover{
+    background-color: #FFC300;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+
+
+
+
+footer{
+    background-color: #003566;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+    
+.main-header {
+    background-color: white;
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    
+  }
+  
+  .logo img {
+    max-height: 200px; /* Adjust the logo size as needed */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .icon {
+    margin-left: 15px; /* Adjust spacing between icons */
+  }
+  
+  .icon img {
+    border-radius: 8px;
+    max-height: 50px; /* Adjust the social media icon size as needed */
+  }
+.nav{
+    position: absolute;
+    background-color: #003566;
+    height: 100%;
+    display: flex;
+
+    z-index: 1;
+    
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background-color: #cf971b;
+
+}
+.container{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    z-index: 1;
+    align-items: center;
+    z-index: -1;
+    height: 100vh;
+    flex-wrap: wrap;
+    
+
+}
+
+img{
+    max-width: 100%;
+}
+.img{
+    width: 500px;
+    
+}

@@ -1,0 +1,238 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+    
+.main-header {
+    background-color: white;
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    
+  }
+  
+  .logo img {
+    max-height: 200px; /* Adjust the logo size as needed */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .icon {
+    margin-left: 15px; /* Adjust spacing between icons */
+  }
+  
+  .icon img {
+    border-radius: 8px;
+    max-height: 50px; /* Adjust the social media icon size as needed */
+  }
+
+  
+.navbar {
+    background-color: #333; /* Navbar background color */
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    border-bottom: 1px solid #ddd; /* Separator between items */
+  }
+  
+  .navbar li:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white; /* Link text color */
+  }
+  
+  .navbar a:hover {
+    background-color: #555; /* Change background color on hover */
+  }
+
+  .rex{
+    margin-left: 5%;
+    margin-top: 50%;
+    margin-right: 20%;
+  }
+    
+  .rex h1{
+    font-size: 50px;
+    color: #003566;
+    margin-bottom: 20px;
+  }
+  
+  span{
+    color: #FFD60A;
+    box-shadow: #333;
+  }
+  
+  .rex p{
+    color: rgb(46, 38, 38);
+    font-size: 18px;
+  }
+  
+  .rex a{
+    background: #003566;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    
+  }
+  .rex a:hover{
+    background-color: #FFC300;
+  }
+  
+ 
+  
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.img .mes{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    bottom: 0;
+    left: 150px;
+}
+
+
+.img .shape{
+    justify-items: start;
+    align-items: stretch;
+    height: 1000px;
+    width: 1100px;
+    margin-bottom: 0;
+    z-index: -500;
+   
+}
+
+.img .mes{
+    justify-self: center;
+    height: 700px;
+    width: 800px;
+    transform: translateX(2%);
+    transition: left 1s;
+    position: absolute;
+}
+
+.img .mes:hover{
+    left: 6%;
+}
+footer{
+    color: #FFC300;
+    background-color: #003566;
+    padding: 50px 50px;
+    margin-top: -230px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+a{
+  color: #FFC300;
+}
+.img{
+  z-index: -1;
+}
+.nav{
+  position: absolute;
+  background-color: #003566;
+  height: 100%;
+  
+  
+}
+.side a{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: 165px;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+}
+.side a{
+   
+  --color: #FFC300;
+  --color2: rgb(10, 25, 30);
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: .3px solid var(--color);
+  transition: .5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: 'Merriweather  ';
+  text-transform: uppercase;
+  color: var(--color);
+  }
+
+  .side a::after, .side a::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   .side a::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+
+   .side a:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   .side a:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+
+   .side a:hover {
+    color: var(--color2);
+   }
+   .side a:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+   
