@@ -62,7 +62,7 @@
   border-radius: 6px;
   border: .3px solid var(--color);
   transition: .5s;
-  position: relative;
+  position: sticky;
   overflow: hidden;
   cursor: pointer;
   z-index: 1;
@@ -123,6 +123,7 @@
   grid-row: 1/5;
   background-color: #003566;
   height: 776.95px;
+  position: sticky;
 }
 
 .img {
@@ -193,7 +194,7 @@ footer{
     color: #FFC300;
     background-color: #003566;
     padding: 50px 50px;
-    margin-top: -207px;
+    margin-top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
