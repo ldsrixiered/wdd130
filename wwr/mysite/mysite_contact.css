@@ -205,7 +205,7 @@ body{
     outline: none;
     border-radius: 15px;
     padding: .8em;
-    background-color: #cf971b;
+    background-color: #FFC300;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
     transition: 300ms ease-in-out;
   }
@@ -227,7 +227,7 @@ body{
     outline: none;
     border-radius: 15px;
     padding: 1em;
-    background-color: #cf971b;
+    background-color: #FFC300;
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
     transition: 300ms ease-in-out;
   }
@@ -279,7 +279,7 @@ body{
     width: 9em;
    }
    #feedback {
-    background-color: #cf971b;
+    background-color: #FFC300;
     color: #343939;
     font-family: "Shadows Into Light";
     position: absolute;
@@ -293,3 +293,4 @@ body{
 .moveDown {
     margin-top: 3em;
 }
+
