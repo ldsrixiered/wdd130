@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+    font-size: 1.5rem;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #EDF2F4;
+    padding: .5rem;
+    background-color: #2B2D42;
+}
+
+span{
+    color: #EF233C;
+    font-size: 25px;
+}
+
+main{
+    max-width: 840px;
+}
+
+aside{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+    background-color: #8D99AE;
+    color: #2B2D42;
+    text-align: center;
+}
+aside img{
+    
+    width: 200px;
+    height: auto;
+}
+aside h2{
+    color: #EF233C;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #2B2D42;
+    text-align: center;
+}
