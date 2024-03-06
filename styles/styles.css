@@ -1,7 +1,7 @@
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 1em;
     font-size: 1.5rem;
     background-color: #2B2D42;
