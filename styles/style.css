@@ -1,3 +1,4 @@
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -16,6 +17,7 @@ nav a{
 
 main h1 {
     color: #2B2D42;
+    
 }
 main img{
     box-shadow: 0 20px 17px -5px #2B2D42;
@@ -29,16 +31,19 @@ span{
 
 main{
     max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
 }
 
 aside{
     width: 20rem;
-    margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #8D99AE;
     color: #2B2D42;
     text-align: center;
+    box-shadow: 0 20px 18px -5px #2B2D42;
 }
 aside img{
     
@@ -53,10 +58,9 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #2B2D42;
     text-align: center;
+    
 }
-aside{
-    box-shadow: 0 20px 18px -5px #2B2D42;
-}
+
 
 main p{
     padding: 0;
