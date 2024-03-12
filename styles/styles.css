@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -21,14 +25,37 @@ main h1 {
 }
 main img{
     box-shadow: 0 20px 17px -5px #2B2D42;
+    float: right;
 }
 
+h1::first-letter{
+    font-size: 50px;
+    float: top;
+    color: #EF233C;
+    box-shadow: #2B2D42;
+}
+main p{
+    margin: 20px 0 20px 10px;
+}
+
+main ul li a{
+    text-decoration: none;
+    margin: 20px 0 20px 10px;
+    font-size: 1.1em;
+    color: #EF233C;
+}
+main ul{
+    background-color: #8D99AE;
+    padding: 1em;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+}
 span{
     color: #EF233C;
-    font-size: 25px;
-    text-shadow: #2B2D42;
+    font-size:25px;
+    font-style: italic;
 }
-
 main{
     max-width: 840px;
     display: flex;
@@ -36,15 +63,7 @@ main{
     align-items: self-start;
 }
 
-aside{
-    width: 20rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1.5rem;
-    background-color: #8D99AE;
-    color: #2B2D42;
-    text-align: center;
-    box-shadow: 0 20px 18px -5px #2B2D42;
-}
+
 aside img{
     
     width: 200px;
@@ -52,6 +71,8 @@ aside img{
 }
 aside h2{
     color: #EF233C;
+    position: absolute;
+    left: 150px;
 }
 
 footer{
@@ -62,6 +83,19 @@ footer{
 }
 
 
+
 main p{
     padding: 0;
+}
+/* class selector */
+.box{
+    margin: 1rem;
+    border: radius #EF233C;
+    padding: 1rem;
+    background-color: #8D99AE;
+    color: #2B2D42;
+    text-align: center;
+    box-shadow: 0 20px 18px -5px #2B2D42;
+    width: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
 }
