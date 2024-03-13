@@ -73,8 +73,8 @@ aside img{
 }
 aside h2{
     color: #2B2D42;
-    position: absolute;
-    left: 126px;
+    position: relative;
+    left: 20px;
 }
 
 footer{
@@ -89,7 +89,8 @@ footer{
 main p{
     padding: 0;
 }
-/* class selector */
+
+/* Class Selector */
 .box{
     margin: 1rem;
     border: radius #EF233C;
