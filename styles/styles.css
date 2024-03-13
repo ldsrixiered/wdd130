@@ -73,15 +73,19 @@ aside img{
 }
 aside h2{
     color: #2B2D42;
-    position: relative;
-    left: 20px;
+    position: absolute;
+    left: 120px;
 }
 
 footer{
     margin-top: 15px;
     border-top: 1px solid #2B2D42;
     text-align: center;
-    
+   
+}
+
+aside{
+    position: relative;
 }
 
 
@@ -90,8 +94,7 @@ main p{
     padding: 0;
 }
 
-/* Class Selector */
-
+/* Class Selectors */
 .box{
     margin: 1rem;
     border: radius #EF233C;
