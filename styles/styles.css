@@ -33,9 +33,11 @@ h1::first-letter{
     float: top;
     color: #EF233C;
     box-shadow: #2B2D42;
+    font-style: italic;
 }
 main p{
     margin: 20px 0 20px 10px;
+    font-size: 23px;
 }
 
 main ul li a{
@@ -58,9 +60,9 @@ span{
 }
 main{
     max-width: 840px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: self-start;
+    align-items: self-start; */
 }
 
 
@@ -70,9 +72,9 @@ aside img{
     height: auto;
 }
 aside h2{
-    color: #EF233C;
+    color: #2B2D42;
     position: absolute;
-    left: 150px;
+    left: 126px;
 }
 
 footer{
