@@ -30,9 +30,7 @@ main img{
 
 h1::first-letter{
     font-size: 50px;
-    float: top;
     color: #EF233C;
-    box-shadow: #2B2D42;
     font-style: italic;
 }
 main p{
@@ -60,9 +58,6 @@ span{
 }
 main{
     max-width: 840px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: self-start; */
 }
 
 
@@ -97,7 +92,6 @@ main p{
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: radius #EF233C;
     padding: 1rem;
     background-color: #8D99AE;
     color: #2B2D42;
