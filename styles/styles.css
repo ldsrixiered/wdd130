@@ -13,9 +13,12 @@ nav{
     
 }
 nav a{
+    display: block;
     text-decoration: none;
     color: #EDF2F4;
     padding: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     background-color: #2B2D42;
 }
 
@@ -26,6 +29,7 @@ main h1 {
 main img{
     box-shadow: 0 20px 17px -5px #2B2D42;
     float: right;
+    padding-top: 1rem;
 }
 
 h1::first-letter{
@@ -56,20 +60,21 @@ span{
     font-size:25px;
     font-style: italic;
 }
-main{
+/* main{
     max-width: 840px;
-}
+} */
 
 
 aside img{
     
-    width: 200px;
-    height: auto;
+    width: 280px;
+    height: 70%;
 }
 aside h2{
     color: #2B2D42;
     position: absolute;
     left: 120px;
+    top: 50px;
 }
 
 footer{
@@ -77,6 +82,11 @@ footer{
     border-top: 1px solid #2B2D42;
     text-align: center;
    
+}
+
+header, .grid, footer{
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 aside{
@@ -87,6 +97,7 @@ aside{
 
 main p{
     padding: 0;
+    
 }
 
 /* Class Selectors */
@@ -99,4 +110,28 @@ main p{
     box-shadow: 0 20px 18px -5px #2B2D42;
     width: 20rem;
     border: 1px solid rgba(0, 0, 0, 0.2); 
+    height: 100%;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 40% 30%;
+    grid-gap: 10px;
+}
+
+.grid main{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    margin-top: 10%;
+}
+.grid aside{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.box p{
+    margin-top: 10px;
+    font-size: 1.2em;
 }
