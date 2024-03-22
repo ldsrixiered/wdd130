@@ -31,11 +31,14 @@
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns:  1fr 2fr;
+  padding: 10px;
+  justify-items: center;
   align-items: center; /* Center items vertically */
-  padding: 10px 20px; /* Adjust padding as needed */
+  /* padding: 10px 20px; Adjust padding as needed */
   background-color: var(--paragraph-background-color); /* Background color of the header */
-  gap: 30%;
+  
 }
 
 header img {
@@ -44,19 +47,25 @@ header img {
 }
 
 nav {
-  flex-grow: 1; /* Allow the navigation links to grow and fill remaining space */
+  flex: 1 1 100%;
+  display: flex;
+  
 }
 
 nav a {
+  padding:  0 30px;
   text-decoration: none;
-  font-family: var(--heading-font);
+  font-family: var(--paragraph-font);
   font-size: 2em;
   color: var(--accent1-color);
   margin-right: 30px; /* Add some space between navigation links */
 }
 
-nav a:last-child {
-  margin-right: 0; /* Remove margin from the last navigation link */
+nav a::first-letter {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-size: 1.5em;
+   
 }
 
 
@@ -186,3 +195,37 @@ main section h2{
     width: 50px;
     height: 50px;
   }
+
+  /* week4 css grid and flex */
+  main section div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  main section div figure{
+    border: thin var(--accent2-color) solid;
+    display: flex;
+    flex-flow: column;
+    margin:auto;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  main section div figure img{
+    max-width: 220px;
+    max-height: 150px;
+  }
+
+  main section div figure figcaption{
+    background-color: var(--headline-color-on-white);
+    color: var(--accent1-color);
+    font: italic var(--paragraph-font);
+    text-align: center;
+    padding: 3px;
+    
+  }
+  main section .pic{
+    display: flex;
+  }
+
