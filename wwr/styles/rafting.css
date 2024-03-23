@@ -220,8 +220,6 @@ main section h2{
   main section div figure figcaption{
     background-color: var(--headline-color-on-white);
     color: var(--accent1-color);
-    font: italic var(--paragraph-font);
-    text-align: center;
     padding: 3px;
     
   }
