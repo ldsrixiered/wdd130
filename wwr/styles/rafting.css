@@ -225,5 +225,6 @@ main section h2{
   }
   main section .pic{
     display: flex;
+    margin-left: -50px;
   }
 
