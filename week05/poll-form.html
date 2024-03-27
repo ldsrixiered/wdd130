@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Html Form - Users Poll</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>WDD 130 | Rixie Red Casto | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Fullname:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Question</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="bing">Bing</option>
+                    <option value="mozila">Mozila</option>
+                    <option value="safari">Safari</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet"> Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the place you have lived:</label>
+                <textarea name="feedback" id="feedback"rows="4" placeholder="Stillwater Florida, Amsterdam Netherland, Tibuktu Mali"></textarea>
+            </fieldset>
+        </form>
+        <button type="submit">Submit poll</button>
+    </main>
+
+
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Rixie Red Castro</p>
+    </footer>
+
+    
+</body>
+</html>
