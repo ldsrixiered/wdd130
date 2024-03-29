@@ -101,15 +101,18 @@ main .container .info h2{
   font-family: var(--heading-font);
   color: var(--accent2-color);
   padding: 5px 0 10px  0;
+  font-weight: 200;
 }
 main .container .info .map{
   border: solid var(--accent2-color);
-  padding-bottom: 5px;
+  
   border-radius: 10px;
   -webkit-box-shadow: 3px -4.5px 10px 3px #dddddd;
   -moz-box-shadow: 3px -4.5px 10px 3px #dddddd;
   box-shadow: 3px -4.5px 10px 3px #dddddd;
-  padding: 5px;
+}
+.info h2{
+  padding-top: 10px;
 }
 
 .info p{
@@ -140,6 +143,23 @@ main .container .info .map{
 .sent h2{
   padding: 5px 0 10px  0;
   text-align: center;
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-weight: 300;
+}
+
+.sent form label{
+  font-family: var(--paragraph-font);
+}
+
+.sent form input{
+  border-radius: 8px;
+  border: solid var(--accent2-color);
+}
+.sent form #purpose {
+  border-radius: 8px;
+  height: 40px;
+  border: solid var(--accent2-color);
 }
 
 
