@@ -7,7 +7,7 @@
     <meta name="description" content="Dry Oar way to Contact Us">
     <meta name="author" content="Rixie Red Castro">
     <link rel="icon" href="week02/Raffting.jpg">
-    <link rel="stylesheet" href="styles/contactus.css">
+    <link rel="stylesheet" href="styles/rafting.css">
     <title>Contact Us - Dry Oar Rafting</title>
 
 </head>
@@ -27,7 +27,7 @@
 
 
     <main>
-       <H1> Contact Us</H1>
+       <H1>Rafting Site Contact Information</H1>
        <p>We love questions and feedback - and we're always happy to help!</p>
        <div class="container">
             <div class="info">
@@ -59,12 +59,21 @@
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
                     
-                    <label for="purpose">Purpose of Message:</label>
-                    <select id="purpose" name="purpose">
-                        <option value="general">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="suggestion">Website Suggestion</option>
-                    </select>
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>
+                            General Inquiry
+                        </label><br>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label><br>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
                     
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required></textarea>
