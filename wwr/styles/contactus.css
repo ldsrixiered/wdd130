@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Shadows+Into+Light&display=swap');
+
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #343939   ;
+    --secondary-color: #8998a1 ;
+    --accent1-color: #e7e9e6;
+    --accent2-color: #cf971b;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Shadows Into Light";
+    --paragraph-font: "Inter, Helvetica, sans-serif";
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #343939;  /* headlines on a white background */ 
+    --headline-color-on-color: #e7e9e6; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #343939; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #e7e9e6; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #343939  ;
+    --nav-link-color: #343939;
+    --nav-background-color: #cf971b;
+    --nav-hover-link-color: #e7e9e6;
+    --nav-hover-background-color: #343939;
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: var(--paragraph-font);
+}
+
+header {
+  display: grid;
+  grid-template-columns:  1fr 2fr;
+  padding: 10px;
+  justify-items: center;
+  align-items: center; /* Center items vertically */
+  /* padding: 10px 20px; Adjust padding as needed */
+  background-color: var(--paragraph-background-color); /* Background color of the header */
+  
+}
+
+header img {
+  width: 80px; /* Adjust the width of the logo image */
+  margin-right: 50px; /* Add some space between the logo and navigation links */
+}
+
+nav {
+  flex: 1 1 100%;
+  display: flex;
+  
+}
+
+nav a {
+  padding:  0 30px;
+  text-decoration: none;
+  font-family: var(--paragraph-font);
+  font-size: 2em;
+  color: var(--accent1-color);
+  margin-right: 30px; /* Add some space between navigation links */
+}
+
+nav a::first-letter {
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-size: 1.5em;
+   
+}
+/* main sextion start here */
+main h1, p{
+  text-align: center;
+}
+main h1{
+  padding: 20px 0 5px 0 ;
+  font-family: var(--heading-font);
+  font-size: 2.5rem;
+}
+main p{
+  color: gray;
+}
+
+main h1{
+  color: var(--accent2-color);
+}
+
+main .container{
+  display: grid;
+  grid-template-columns: 60% auto;
+  padding-top: 20px;
+}
+
+main .container .info{
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .container .info h2{
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  padding: 5px 0 10px  0;
+}
+main .container .info .map{
+  border: solid var(--accent2-color);
+  padding-bottom: 5px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px -4.5px 10px 3px #dddddd;
+  -moz-box-shadow: 3px -4.5px 10px 3px #dddddd;
+  box-shadow: 3px -4.5px 10px 3px #dddddd;
+  padding: 5px;
+}
+
+.info p{
+  padding: 5px;
+}
+.info p span{
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  font-size: 20px;
+}
+.dp p{
+  padding: 1px;
+
+}
+.dp img{
+  border-radius: 50%;
+}
+.container .sent form{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 70px 0 5px;
+}
+.sent form input{
+  width: 100%;
+  padding:10px 0;
+}
+
+.sent h2{
+  padding: 5px 0 10px  0;
+  text-align: center;
+}
+
+
+/* heading start here */
+/* header nav a{
+  text-decoration: none;
+  color: var(--accent2-color);
+  font-size: 2em;
+  font-family: var(--heading-font);
+}
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+header{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10%;
+} */
+
+
+
+
+  /* footer */
+
+  footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 40%;
+
+  
+  }
+
+  footer nav a img{
+    width: 50px;
+    height: 50px;
+  }
+
+  /* week4 css grid and flex */
+  main section div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+  }
+
+  main section div figure{
+    border: thin var(--accent2-color) solid;
+    display: flex;
+    flex-flow: column;
+    margin:auto;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  main section div figure img{
+    max-width: 220px;
+    max-height: 150px;
+  }
+
+  main section div figure figcaption{
+    background-color: var(--headline-color-on-white);
+    color: var(--accent1-color);
+    padding: 3px;
+    
+  }
+  main section .pic{
+    display: flex;
+    margin-left: -50px;
+  }
+
