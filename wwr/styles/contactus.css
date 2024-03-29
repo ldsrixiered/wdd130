@@ -72,12 +72,15 @@ main h1, p{
   text-align: center;
 }
 main h1{
-  padding: 20px 0 5px 0 ;
+  padding: 40px 0 5px 0 ;
   font-family: var(--heading-font);
-  font-size: 2.5rem;
+  font-size: 4.5rem;
+  font-weight: 400;
 }
 main p{
   color: gray;
+  padding-bottom: 70px;
+  font-size: 1.5rem;
 }
 
 main h1{
@@ -124,16 +127,18 @@ main .container .info .map{
   font-size: 20px;
 }
 .dp p{
-  padding: 1px;
+  padding: 1px 0 10px;
 
 }
 .dp img{
   border-radius: 50%;
+  padding:50px 0 20px 0 ;
+
 }
 .container .sent form{
   display: flex;
   flex-direction: column;
-  padding: 50px 70px 0 5px;
+  padding: 0px 70px 0 5px;
 }
 .sent form input{
   width: 100%;
